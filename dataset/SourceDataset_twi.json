@@ -1,0 +1,171 @@
+{
+	"name": "SourceDataset_twi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "schema_1.xlsx",
+				"folderPath": "home_credit",
+				"fileSystem": "raw"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "SK_ID_PREV",
+				"type": "String"
+			},
+			{
+				"name": "SK_ID_CURR",
+				"type": "String"
+			},
+			{
+				"name": "NAME_CONTRACT_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "AMT_ANNUITY",
+				"type": "String"
+			},
+			{
+				"name": "AMT_APPLICATION",
+				"type": "String"
+			},
+			{
+				"name": "AMT_CREDIT",
+				"type": "String"
+			},
+			{
+				"name": "AMT_DOWN_PAYMENT",
+				"type": "String"
+			},
+			{
+				"name": "AMT_GOODS_PRICE",
+				"type": "String"
+			},
+			{
+				"name": "WEEKDAY_APPR_PROCESS_START",
+				"type": "String"
+			},
+			{
+				"name": "HOUR_APPR_PROCESS_START",
+				"type": "String"
+			},
+			{
+				"name": "FLAG_LAST_APPL_PER_CONTRACT",
+				"type": "String"
+			},
+			{
+				"name": "NFLAG_LAST_APPL_IN_DAY",
+				"type": "String"
+			},
+			{
+				"name": "RATE_DOWN_PAYMENT",
+				"type": "String"
+			},
+			{
+				"name": "RATE_INTEREST_PRIMARY",
+				"type": "String"
+			},
+			{
+				"name": "RATE_INTEREST_PRIVILEGED",
+				"type": "String"
+			},
+			{
+				"name": "NAME_CASH_LOAN_PURPOSE",
+				"type": "String"
+			},
+			{
+				"name": "NAME_CONTRACT_STATUS",
+				"type": "String"
+			},
+			{
+				"name": "DAYS_DECISION",
+				"type": "String"
+			},
+			{
+				"name": "NAME_PAYMENT_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "CODE_REJECT_REASON",
+				"type": "String"
+			},
+			{
+				"name": "NAME_TYPE_SUITE",
+				"type": "String"
+			},
+			{
+				"name": "NAME_CLIENT_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "NAME_GOODS_CATEGORY",
+				"type": "String"
+			},
+			{
+				"name": "NAME_PORTFOLIO",
+				"type": "String"
+			},
+			{
+				"name": "NAME_PRODUCT_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "CHANNEL_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "SELLERPLACE_AREA",
+				"type": "String"
+			},
+			{
+				"name": "NAME_SELLER_INDUSTRY",
+				"type": "String"
+			},
+			{
+				"name": "CNT_PAYMENT",
+				"type": "String"
+			},
+			{
+				"name": "NAME_YIELD_GROUP",
+				"type": "String"
+			},
+			{
+				"name": "PRODUCT_COMBINATION",
+				"type": "String"
+			},
+			{
+				"name": "DAYS_FIRST_DRAWING",
+				"type": "String"
+			},
+			{
+				"name": "DAYS_FIRST_DUE",
+				"type": "String"
+			},
+			{
+				"name": "DAYS_LAST_DUE_1ST_VERSION",
+				"type": "String"
+			},
+			{
+				"name": "DAYS_LAST_DUE",
+				"type": "String"
+			},
+			{
+				"name": "DAYS_TERMINATION",
+				"type": "String"
+			},
+			{
+				"name": "NFLAG_INSURED_ON_APPROVAL",
+				"type": "String"
+			}
+		]
+	}
+}
