@@ -1,0 +1,9 @@
+{
+	"name": "Azure-crp5",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2d8ddf17-3bdd-4523-b6dd-d18a598198d6",
+		"tenantId": "b0abd1ed-4966-4274-9f19-59dd663e81f5"
+	}
+}
